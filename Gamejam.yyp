@@ -34,8 +34,13 @@
   },
   "name":"Gamejam",
   "resources":[
+    {"id":{"name":"mouse_col","path":"objects/mouse_col/mouse_col.yy",},},
+    {"id":{"name":"test_parent","path":"objects/test_parent/test_parent.yy",},},
+    {"id":{"name":"test_window_1","path":"objects/test_window_1/test_window_1.yy",},},
     {"id":{"name":"Play","path":"rooms/Play/Play.yy",},},
     {"id":{"name":"Start","path":"rooms/Start/Start.yy",},},
+    {"id":{"name":"mouse","path":"sprites/mouse/mouse.yy",},},
+    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
