@@ -34,12 +34,14 @@
   },
   "name":"Gamejam",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Play","path":"rooms/Play/Play.yy",},},
+    {"id":{"name":"Start","path":"rooms/Start/Start.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Start","path":"rooms/Start/Start.yy",},},
+    {"roomId":{"name":"Play","path":"rooms/Play/Play.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
