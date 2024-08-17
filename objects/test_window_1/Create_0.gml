@@ -1,11 +1,20 @@
-border_x1 = 100 - x;
-border_y1 = 100 + y;
+border_x1 = x - 100;
+border_y1 = y + 100;
 
-border_x2 = 100 + x;
-border_y2 = 100 - y;
-
+border_x2 = x+100;
+border_y2 = y-100;
+tmp_var = false;
+tmp_var2 = false;
+tmp_var3 = false;
 function grab_thing(touch_bool){
 	if touch_bool && mouse_check_button(mb_left){
 		return true;
-	} else {return false;}
+		tmp_var = true;
+	} else if mouse_check_button(mb_left) && tmp_var{
+		return true
+	}
+	else if mouse_check_button_released(mb_left){
+		tmp_var = false
+	}
 }
+
