@@ -36,15 +36,19 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"Gamejam",
   "resources":[
+<<<<<<< HEAD
     {"id":{"name":"MainMenu","path":"objects/MainMenu/MainMenu.yy",},},
     {"id":{"name":"mouse_col","path":"objects/mouse_col/mouse_col.yy",},},
     {"id":{"name":"Opening","path":"objects/Opening/Opening.yy",},},
     {"id":{"name":"test_parent","path":"objects/test_parent/test_parent.yy",},},
     {"id":{"name":"test_window_1","path":"objects/test_window_1/test_window_1.yy",},},
+=======
+    {"id":{"name":"Starter","path":"objects/Starter/Starter.yy",},},
+>>>>>>> 3bfc7676be60dff9e137d6cc0fca5bb5dc24d612
     {"id":{"name":"Main","path":"rooms/Main/Main.yy",},},
     {"id":{"name":"Play","path":"rooms/Play/Play.yy",},},
     {"id":{"name":"Render_2D","path":"scripts/Render_2D/Render_2D.yy",},},
@@ -103,12 +107,15 @@
     {"id":{"name":"_x","path":"sprites/_x/_x.yy",},},
     {"id":{"name":"_y","path":"sprites/_y/_y.yy",},},
     {"id":{"name":"_z","path":"sprites/_z/_z.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"ExitButton","path":"sprites/ExitButton/ExitButton.yy",},},
     {"id":{"name":"Logo","path":"sprites/Logo/Logo.yy",},},
     {"id":{"name":"mouse","path":"sprites/mouse/mouse.yy",},},
     {"id":{"name":"PlayButton","path":"sprites/PlayButton/PlayButton.yy",},},
     {"id":{"name":"SettingsButton","path":"sprites/SettingsButton/SettingsButton.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+=======
+>>>>>>> 3bfc7676be60dff9e137d6cc0fca5bb5dc24d612
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
