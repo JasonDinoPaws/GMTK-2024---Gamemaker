@@ -35,7 +35,7 @@ function RenderLeter(Letter = "",Left = 0,Top = 0,XSize = 7,YSize = 7,Color = c_
 			
 		return [XSize,YSize]
 }
-function RenderText(Text = "",Left = 0,Top = 0,XSize = 7,YSize = 7,Alignment = ["Left","Top"],Color = c_white, Alpha = 1)
+function RenderText(Text = "",Left = 0,Top = 0,XSize = 7,YSize = 7,Spaceing = 2,Alignment = ["Left","Top"],Color = c_white, Alpha = 1)
 {
 	if is_array(Text)
 	{
@@ -59,7 +59,7 @@ function RenderText(Text = "",Left = 0,Top = 0,XSize = 7,YSize = 7,Alignment = [
 	for (var t = 1;t <= string_length(Text);t++)
 	{
 		Size = RenderLeter(string_char_at(Text,t),Left,Top,XSize,YSize,Color,Alpha) 
-		Left += Size[0]+2
+		Left += Size[0]+Spaceing
 	}
 	return [Left,Top]
 }
