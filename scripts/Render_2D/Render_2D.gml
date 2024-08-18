@@ -13,7 +13,7 @@ global.letterconverts = [
 	["?","quest"],
 	["<","than"],
 	[",","comma"],
-	[":","col"],
+	[" =","col"],
 	[";","semicol"],
 	["/","slash"],
 	["[","brake"]
@@ -86,24 +86,24 @@ function RenderGrid(Objs = ["Hello"],x1,x2,top,RowCells = 2,CellSize = [1,1],Off
 	}
 }
 
-
-function RenderButton(x,y, xscale,yscale, Text = "Hello", InsideColor = c_white, selected = false)
+function RenderButton(img,sub=0, x=0,y=0, xscale=1,yscale=1, rotation=0,color=c_white,alpha=1, input=mouse_check_button(mb_left),callback=function(){show_debug_message("Pressed")})
 {
-	if !selected
+	if img
 	{
-		xscale -= .072916*room_width
-		yscale -= .03308*room_height
-	}
-	
-	xscale = xscale/105
-	yscale = yscale/25
-	draw_sprite_ext(ButtonOutline,-1,x,y, xscale,yscale,0,selected?c_white:c_black,1)
-	
-	if selected
-		draw_sprite_ext(ButtonSelected,-1,x,y, xscale,yscale,0,InsideColor,1)
-	else
-		draw_sprite_ext(ButtonUnselected,-1,x,y, xscale,yscale,0,#7F8480,1)
+		xsize = sprite_get_width(img)*xscale
+		ysize = sprite_get_height(img)*yscale
+		xoff = sprite_get_xoffset(img)
+		yoff = sprite_get_yoffset(img)
 		
-	
-	RenderText(Text,x,y,xscale*14,yscale*14,["Center","Center"])
+		x1 = x - (xoff*xscale)
+		y1 = y - (yoff*yscale)
+		x2 = x1+xsize
+		y2 = y1+ysize
+		isOver = x1 <= mouse_x and mouse_x <= x2 and y1 <= mouse_y and mouse_y <= y2
+
+		draw_sprite_ext(img,sub,x,y,xscale,yscale,rotation,color,alpha)
+		
+		if input and isOver
+			callback()
+	}
 }

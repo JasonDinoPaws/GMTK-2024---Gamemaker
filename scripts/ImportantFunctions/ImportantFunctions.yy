@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"UIStates",
+  "%Name":"ImportantFunctions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"UIStates",
+  "name":"ImportantFunctions",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

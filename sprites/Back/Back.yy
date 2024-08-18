@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"ExitButton",
+  "%Name":"Back",
   "bboxMode":0,
   "bbox_bottom":21,
   "bbox_left":0,
@@ -21,9 +21,9 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"df3478f0-5193-4a8f-ba77-6218ef761435","blendMode":0,"displayName":"default","isLocked":false,"name":"df3478f0-5193-4a8f-ba77-6218ef761435","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"ExitButton",
+  "name":"Back",
   "nineSlice":null,
-  "origin":4,
+  "origin":1,
   "parent":{
     "name":"MainMenu",
     "path":"folders/Sprites/MainMenu.yy",
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"ExitButton",
+    "%Name":"Back",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"ExitButton",
+    "name":"Back",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,14 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"26f214bc-78d0-431a-b23e-e3ffff47c1a1","path":"sprites/ExitButton/ExitButton.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"26f214bc-78d0-431a-b23e-e3ffff47c1a1","path":"sprites/Back/Back.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"abdcb557-7ac1-4e8d-be35-3f751a0d5ec7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
     "xorigin":39,
-    "yorigin":11,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
